@@ -1,0 +1,176 @@
+body {
+    font-family: 'Roboto';
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+    form {
+        margin: .5rem;
+    }
+
+    .title {
+        display: flex;
+        flex-direction: column;
+        margin-left: .5rem;
+    }
+
+    .formTop {
+        margin-bottom: .5rem;
+        padding-bottom: .5rem;
+    }
+
+    .formBottom {
+        margin-top: .5rem;
+        padding-top: .5rem;
+    }
+
+    .field {
+        display: flex;
+        flex-direction: column;
+        margin: .5rem 0;
+    }
+
+    .fieldName {
+        margin: .5rem 0 0 .5rem ;
+        padding-bottom: .5rem;
+    }
+
+    .fieldSelect {
+        width: min-content;
+        margin: 0 .5rem 0 .5rem;
+    }
+
+    .fieldInput {
+        margin: 0 .5rem 0 .5rem;
+        padding: .5rem 0;
+    }
+
+    #witnessInfo {
+        display: none;
+    }
+
+    #attorneyInfo {
+        display: none;
+    }
+   
+    .submit {
+        margin: 0 .5rem 0 .5rem;
+    }
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+    form {
+        margin: .5rem;
+    }
+
+    .title {
+        display: flex;
+        flex-direction: column;
+        margin-left: .5rem;
+    }
+
+    .formTop {
+        margin-bottom: .5rem;
+        padding-bottom: .5rem;
+    }
+
+    .formBottom {
+        margin-top: .5rem;
+        padding-top: .5rem;
+    }
+
+    .field {
+        display: flex;
+        flex-direction: column;
+        margin: .5rem 0;
+    }
+
+    .fieldName {
+        margin: .5rem 0 0 .5rem ;
+        padding-bottom: .5rem;
+    }
+
+    .fieldSelect {
+        width: min-content;
+        margin: 0 .5rem 0 .5rem;
+    }
+
+    .fieldInput {
+        margin: 0 .5rem 0 .5rem;
+        padding: .5rem 0;
+    }
+
+    #witnessInfo {
+        display: none;
+    }
+
+    #attorneyInfo {
+        display: none;
+    }
+   
+    .submit {
+        margin: 0 .5rem 0 .5rem;
+    }
+}
+
+/* Laptop and up */
+@media (min-width: 992px) {
+    form {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: .5rem;
+    }
+
+    .title {
+        display: flex;
+        flex-direction: column;
+        margin-left: .5rem;
+    }
+
+    .formTop {
+        margin-bottom: .5rem;
+        padding-bottom: .5rem;
+        width: 50%;
+    }
+
+    .formBottom {
+        margin-top: .5rem;
+        padding-top: .5rem;
+        width: 50%;
+    }
+
+    .field {
+        display: flex;
+        flex-direction: column;
+        margin: .5rem 0;
+    }
+
+    .fieldName {
+        margin: .5rem 0 0 .5rem ;
+        padding-bottom: .5rem;
+    }
+
+    .fieldSelect {
+        width: min-content;
+        margin: 0 .5rem 0 .5rem;
+    }
+
+    .fieldInput {
+        margin: 0 .5rem 0 .5rem;
+        padding: .5rem 0;
+    }
+
+    #witnessInfo {
+        display: none;
+    }
+
+    #attorneyInfo {
+        display: none;
+    }
+   
+    .submit {
+        margin: 0 .5rem 0 .5rem;
+    }
+}
